@@ -1,0 +1,44 @@
+# .gitignore for Python Flask
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+*.venv/
+*.env/
+
+# Environment variables
+.env
+*.env
+
+# Dependencies installed with pip
+# Remove the line below if you're using pipenv
+requirements.txt
+
+# Dependencies installed with pipenv
+# Remove the line below if you're using pip
+Pipfile.lock
+
+# Logs and other generated files
+*.log
+*.pot
+*.pyo
+*.swp
+*.pot
+*.mo
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.pydevproject
+*.project
+*.settings/
+*.tmproj
+*.pyc
+.DS_Store
+
+# Flask specific files
+instance/
